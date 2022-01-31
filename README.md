@@ -5,7 +5,6 @@ Yo, it's like a config script for l4d2
 1. Go to your Left 4 Dead 2 installation directory `.../Steam/steamapps/common/Left 4 Dead 2/left4dead2/`
 2. Right-click `cfg` folder and click `Send to >> Compressed (zipped) folder`
 3. This will be your backup in the event that you would like to revert back to your original settings
-   - Simply delete `cfg` folder and extract the zipped `cfg` folder
 
 ## Instructions
  1. **Read through each config file to understand what is happening**
