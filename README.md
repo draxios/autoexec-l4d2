@@ -7,14 +7,14 @@ Yo, it's like a config script for l4d2
 3. This will be your backup in the event that you would like to revert back to your original settings
 
 ## Instructions
- 1. **Read through each config file to understand what is happening**
- 2. Copy the files and folders into your game directory:
-`.../Steam/steamapps/common/Left 4 Dead 2/left4dead2/`
+ 1. **Read through config file to understand what is happening**
+ 2. Copy the file to your game directory:
+`.../Steam/steamapps/common/Left 4 Dead 2/left4dead2/cfg`
  3. Setup launch options of L4D2: `Right-click Left 4 Dead 2 >> Properties >> Set Launch Options`
   4. Add the following line into the box: `-lv -noborder -high +precache_all_survivors 1 -novid -console -nojoy -noforcemaccel -noforcemparms -noforcemspd +mat_motion_blur_percent_of_screen_max 0 +clientport 27666`
       - Remove `-lv` if you do not prefer to play in low violence mode
- 6. Setup video settings as per given below if you have a potato computer like mine (you may use your higher settings for items in **bold** if you have a beast)
 
+ 6. Setup video settings as per given below if you have a potato computer like mine (you may use your higher settings for items in **bold** if you have a beast)
 | Setting                     | Value                         | Remarks                                                      |
 | --------------------------- | ----------------------------- | ------------------------------------------------------------ |
 | Aspect Ratio                | As per your your screen size  |                                                              |
@@ -30,7 +30,6 @@ Yo, it's like a config script for l4d2
 | **Multicore Rendering**     | Enabled                       | Uses all available CPU cores for the game (Disable this if you have an old computer or facing fps issues even with this config) |
 | Paged Pool Memory Available | High                          | More memory is assigned to the game which results in the game loading maps slightly faster |
 
-  7. Launch game and open console and run the following command: `unbindall; exec config_default.cfg; exec autoexec.cfg`
-      - Please note that the command above **resets the game config**. **All custom binds/mappings will be removed**. You will have to manually add or change your custom binds/mappings after this command.
+ 7. Launch game and open console and run the following command: `exec autoexec.cfg`
 
  8. Change any binding that you do manually (like binding different key to zoom, changing crouch key, etc) in the game settings
